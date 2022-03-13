@@ -10,37 +10,77 @@
 </head>
 <body>
     <header>
-        <img src="logo.jpg" alt="HEADER LOGO">
-        <div>header links group
-        <a href="">header link one</a>
-        <a href="">header link two</a>
-        <a href="">header link three</a>
-    </div>
+        <div class="logobar">
+            <img src="/images/logo.png" alt="HEADER LOGO" style="height:20px;">
+             Forest Life Lovers
+        </div>
+        <nav>
+            <a href="">About</a>
+            <a href="">Articles</a>
+            <a href="">Contact</a>
+        </nav>
     </header>
   
     <main>
-        <div class="hero">THIS IS HERO SECTION
-            <h1>This website is awesome</h1>
-            <p>Text under the main title</p>
-            <div class="button">SignUp</div>
-            <div>IMAGE</div>
+        <div class="hero">
+            <div style="flex-grow: 1">
+            <h1>The best place <br> for forest life lovers</h1>
+            <p>Find all the beautiful things about forest life in one place. 
+                Sign up to stay tuned with all the newest articles and events happening.</p>
+            <div class="button">
+                <button type="button">Sign up</button>
+            </div>
+        </div>
+            <div style="flex-grow: 1">
+                <img src="/images/heroimage.jpg" alt="green trees on brown grass field during daytime">
+            </div>
         </div>
 
-        <div class="information">THIS IS INFORMATION SECTION
-            <h2>Some random information</h2>
-            <div> Photo with text under</div>
+        <div class="information">
+            <h2>Latest articles and blogs about forest life</h2>
+            <div class="infobar">
+                <div class="infoblock">
+                    <img src="/images/trees.jpeg" alt="photo of old trees" style="height: auto; width: auto;">
+                    <p>Trees are fundamental ihabitant of every forest.
+                        They provide food and shelter for many animals and insects.</p>
+                </div>
+                <div class="infoblock">
+                    <img src="/images/animals.jpeg" alt="photo of wolves in forest " style="height: auto; width: auto;">
+                    <p>There are many kind of different animals living in forest.
+                        from smallest insects to beautiful mammals like wolves and bears.
+                        All kind birds finds their home here as well.</p>
+                </div>
+                <div class="infoblock">
+                    <img src="/images/fungi.jpeg" alt="photo of pink fungi in forest environment" style="height: auto; width: auto;">
+                    <p>Fungi are fundamental element of forest eco-system.
+                        Without them food chain needed for tree survival would be broken
+                        and all life would be lost.</p>
+                </div>
+                <div class="infoblock">
+                    <img src="/images/legends.jpeg" alt="face carved in tree" style="height: auto; width: auto;">
+                    <p>Folklor all around world cis veru rich in legends about forest creatures
+                        and magical beings. </p>
+                </div>
+            </div>
         </div>
 
-        <div class="quote">THIS IS QUOTE SECTION
-            <p>Inspiring quote</p>
+        <div class="quote">
+            <h3>“Finland is officially the world&apos;s happiest country. 
+                It is also 75 per cent forest. I believe these facts are related."</h3>
+            <h4>- Matt Haig</h4>
         </div>
 
-        <div class="calltoaction">THIS IS CALLTOACTION SECTION
-            <h4>Call to action</h4>
-            <div class="button">SignUp</div>
+        <div class="calltoaction">
+            <div>
+                <p style="font-size: 32px;"><strong>Call to action! It&apos;s time!</strong></p>
+                <p style="font-size: 18px;"> SIgn up to keep up to date to all of our newest articles and blogs!</p>
+            </div>
+            <div class="button">
+                <button type="button">Sign up</button>
+            </div>
         </div>
    </main>
 
-    <footer>Copyright</footer>
+    <footer>Copyright &copy; The Odin Project 2021</footer>
 </body>
 </html>

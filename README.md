@@ -1,6 +1,10 @@
 # landing-page
 ODIN Project to create full HTML+CSS page (Flexbox included)
 
+#QUOTE: credit to https://www.walkmyworld.com/posts/forest-quotes
+
+#PHOTO credit to: https://pixabay.com/
+
 WEBPAGE design: DESIGN/odin-project_landing_page.png
 FONT AND COLORS: DESIGN/colors_and_stuff.png
 
